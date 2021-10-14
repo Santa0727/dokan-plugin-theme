@@ -1,0 +1,19 @@
+/*
+Theme Name: Dokan Child
+Theme URI: http://wedevs.com/theme/dokan/
+Author: Tareq Hasan
+Author URI: http://tareq.weDevs.com
+Description: An e-commerce theme for Dokan
+Template: dokan
+Version: 1.0.0 
+Text Domain: dokan-child 
+*/
+
+@media screen and (max-width: 768px) {
+  .seller-items ul.products[class*=columns-] li.product {
+        width: 100%;
+   }
+   .seller-items ul.products {
+        flex-wrap: wrap;
+   }
+}
